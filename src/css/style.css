@@ -7,14 +7,25 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    height: 100vh;
 }
 
 .title p {
     color: var(--primary-color);
     font-size: 30px;
+    padding: 2rem 0;
 }
 
 .title {
     text-align: center;
-    margin-top: 2rem;
+
+}
+
+#calculator-box {
+    border: white solid 4px;
+    border-radius: 25px;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    padding: 1rem;
 }
