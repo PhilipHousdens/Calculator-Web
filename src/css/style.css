@@ -11,4 +11,10 @@ body {
 
 .title p {
     color: var(--primary-color);
+    font-size: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
 }
